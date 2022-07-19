@@ -1,0 +1,86 @@
+(01)What are the benefits of using CSS?
+CSS handles the look and feel part of a web page.
+
+(02)What are the disadvantages of CSS?
+• CSS, CSS 1 up to CSS3, result in creating of confusion among web browsers.
+• With CSS, what works with one browser might not always work with another. ...
+• There exists a scarcity of security.
+• After making the changes we need to confirm the compatibility if they appear.
+
+(03)What is the difference between CSS2 and CSS3?
+Unlike CSS2, which was comprised of a single document, CSS3 has its specifications divided into many individual modules,
+which makes CSS3 a whole lot easier to handle.
+With CSS3, the designers can now use special fonts, like those available in Google Fonts and Typecast.
+
+(04)Name a few CSS style components 
+[i]Selecter:HTML element name, id name, class name.
+[ii]Property:It's like an attribute such as background color,font-size,position,text-align,color,border etc.
+[iii]Values:which defines property or values allocate for properties.
+
+(05)What do you understand by CSS opacity?
+Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+
+(06)How can the background color of an element be changed?
+• Add a CSS class to the div you'd like to change. First, find the div in your HTML code and add a class to the opening tag. ...
+• Add the new class selector to your CSS code. Next, head over to your CSS code and add your new class selector. ...
+• Choose a new background color.
+
+(07)How can image repetition of the backup be controlled?
+use the background-repeat property.
+
+(08)What is the use of the background-position property?
+The background-position property sets the starting position of a background image.
+Tip: By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.
+
+(09)Which property controls the image scroll in the background?
+The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+
+(10)Why should background and color be used as separate properties?
+There are two reasons behind this:[i]It enhances the legibility of style sheets. 
+                                  The background property is a complex property in CSS, and if it is combined with color, 
+                                  the complexity will further increase.
+
+					    [ii]Color is an inherited property while the background is not. So this can make confusion further.
+
+
+(11)How to center block elements using CSS1?
+Margin property.
+
+
+(12)How to maintain the CSS specifications?
+The CSS specifications are maintained by the World Wide Web Consortium (W3C).
+
+
+(13)What are the ways to integrate CSS as a web page? 
+[i]Inline - by using the style attribute inside HTML elements
+[ii]Internal - by using a <style> element in the <head> section
+[iii]External - by using a <link> element to link to an external CSS file
+
+
+(14)What is embedded style sheets?
+It allows you to define styles for a particular HTML document as a whole in one place.
+
+
+(15)What are the external style sheets?
+An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage. 
+
+
+(16)What are the advantages and disadvantages of using external style sheets?
+[i]The advantages of External Style sheets are: The style of several documents can be controlled from site by using them. 
+[ii]Disadvantages of External CSS: Your pages may not be rendered correctly until the external CSS is loaded.
+
+(17)What is the meaning of the CSS selector? 
+A CSS selector is the first part of a CSS Rule.
+It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.
+
+
+(18)What are the media types allowed by CSS?
+• Continuous or paged.
+• Cisual, audio, speech, or tactile.
+• Grid (for character grid devices), or bitmap.
+
+
+
+(19)What is the rule set?
+A rule or "rule set" is a statement that tells browsers how to render particular elements on an HTML page.  
+A rule set consists of a selector followed by a declaration block.

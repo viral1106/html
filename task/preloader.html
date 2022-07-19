@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(to left, red, blue);
+        }
+
+        .a {
+            height: 300px;
+            width: 300px;
+            margin: auto;
+            border: 12px solid;
+            border-top: 12px solid yellow;
+            border-bottom: 12px solid transparent;
+            border-left: 12px solid transparent;
+            border-right: 12px solid transparent;
+            border-radius: 50%;
+            padding: 15px;
+            margin-top: 150px;
+            animation:preloader 5s infinite linear ;
+        }
+
+        .b {
+            height: 250px;
+            width: 250px;
+            padding: 15px;
+            border: 12px solid;
+            border-top: 12px solid yellow;
+            border-bottom: 12px solid transparent;
+            border-left: 12px solid transparent;
+            border-right: 12px solid transparent;
+            border-radius: 50%;
+            animation:preloader 4s infinite linear ;
+        }
+
+        .c {
+            height: 200px;
+            width: 200px;
+            padding: 15px;
+            border: 12px solid;
+            border-top: 12px solid yellow;
+            border-bottom: 12px solid transparent;
+            border-left: 12px solid transparent;
+            border-right: 12px solid transparent;
+            border-radius: 50%;
+            animation:preloader 3s infinite linear ;
+        }
+
+        .d {
+            height: 150px;
+            width: 150px;
+            padding: 15px;
+            border: 12px solid;
+            border-top: 12px solid yellow;
+            border-bottom: 12px solid transparent;
+            border-left: 12px solid transparent;
+            border-right: 12px solid transparent;
+            border-radius: 50%;
+            animation:preloader 2s infinite linear ;
+        }
+        .e {
+            height: 100px;
+            width: 100px;
+            padding: 15px;
+            border: 12px solid;
+            border-top: 12px solid yellow;
+            border-bottom: 12px solid transparent;
+            border-left: 12px solid transparent;
+            border-right: 12px solid transparent;
+            border-radius: 50%;
+            animation: preloader 1s infinite linear ;
+        }
+        
+        @keyframes preloader {
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a">
+        <div class="b">
+            <div class="c">
+                <div class="d">
+                    <div class="e"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#main {
+  position: relative;
+  background: linear-gradient(rgba(227, 230, 234, 0.8), rgba(217, 220, 225, 0.75)), url(./celebration-education-graduation-student-success-learning-concep-concept-66881974.jpg);
+  /* filter: blur(2px); */
+  
+  height: 582px;
+}
+
+.sub {
+  position: absolute;
+  background-color:black;
+  height: 428px;
+  width: 665px;
+  margin: 75px 275px;
+  
+}
+
+.sub h1 {
+  color: white;
+  font-size: 23px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  text-align: center;
+  margin: 11px 0;
+}
+
+.sub .one {
+  position: absolute;
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+i {
+  margin: 5px 3px 3px 11px;
+}
+
+input {
+  border: 2px solid black;
+  width: 330px;
+  padding: 5px;
+  margin: 8px;
+}
+
+.sub .two {
+  position: absolute;
+  background: url(./female-college-student-happy-girl-european-university-scholarship-uni-91749887.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 386px;
+  width: 265px;
+  margin-left: 400px;
+}
