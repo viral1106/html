@@ -260,18 +260,83 @@ a.border-btn:hover {
   
     
 }
+.Deal-of-the-month{
+    display: flex;
+}
 .part-one{
     display: flex;
+    width: 50%;
 }
 .price-box{
     background-color:#F28123;
     position: absolute;
     border-radius: 50%;
-    padding: 35px 25px 35px 25px;
-    margin-bottom: 200px;
+    padding: 30px 25px 30px 25px;
+    margin: 150px 0px 0px 100px;
+    border: 10px solid #F29E57;
 }
+.price-box span strong{
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+}
+.price-box span{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+.part-one img{
+    margin: 150px 0px 0px 20px;
+    width:100%;
+    padding: 50px;
+}
+.part-two{
+    width: 50%;
+    margin-top: 75px;
+    padding: 60px;
 
+}
+.part-two h3{
+    font-size: 40px;
+    font-family:Poppins, sans-serif ;
+}
+.part-two .orange-text{
+    color:#F28123;
+}
+.part-two h4{
+    font-size: 21px;
+    margin-top: 15px;
+    font-family:Poppins, sans-serif ;
+    font-weight: 100;
+}
+.text{
+    /* font-size: 14px; */
+    color: #051922;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.time-counter{
+    /* position: relative; */
+    margin-top: 30px;
+}
+/* .counter-main-box{
+    position: relative;
+} */
 
-
+.box{
+    /* position: relative; */
+    border: 2px solid #F28123;
+    display: inline-block;
+    margin: 0px;
+    padding: 8px 20px 14px;
+}
+.count{
+    font-size: 30px;
+    color: #F28123;
+}
+.btn a{
+    text-decoration: none;
+    background-color: #F28123;
+    border-radius: 50px;
+}
 
 /* Deal of the month end */
