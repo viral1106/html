@@ -292,6 +292,7 @@ a.border-btn:hover {
     width: 50%;
     margin-top: 75px;
     padding: 60px;
+    /* background-color: aqua; */
 
 }
 .part-two h3{
@@ -337,6 +338,19 @@ a.border-btn:hover {
     text-decoration: none;
     background-color: #F28123;
     border-radius: 50px;
+}
+.fourth-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #F28123;
+    margin-top: 50px;
+    border: 0;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+}
+.fourth-btn:hover{
+    color: #F28123;
+    background-color: #051922;
 }
 
 /* Deal of the month end */
