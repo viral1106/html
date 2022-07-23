@@ -354,3 +354,160 @@ a.border-btn:hover {
 }
 
 /* Deal of the month end */
+
+
+/* local shope owner start */
+.five{
+    width: 100%;
+    margin-top: 150px
+}
+.five-img img{
+    height: 120px;
+    border-radius: 50%;
+}
+.five-info{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    /* padding: 10px 10px 10px 10px; */
+    font-family: Poppins, sans-serif;
+}
+.five-info p{
+    margin-top: 20px;
+    padding: 15px 300px 0px 300px;
+    color: #999999;
+    font-size: 17px;
+   
+}
+
+.five-info span{
+    font-size: 14px;
+    color: #999999;
+    margin-top: 20px;
+}
+.five-info i{
+    margin-top: 20px;
+    color: #999999;
+    font-size: 35px;
+}
+
+/* local shope owner end */
+
+/* We are Fruitkha start */
+
+.six{
+    width: 100%;
+    display: flex;
+
+}
+
+.six-one{
+    width: 50%;
+    /* margin: 150px 50px 0px 50px;
+    background-image: url(../img/abt.jpg);
+    height: 300px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative; */
+    
+}
+.video{
+    margin: 150px 50px 0px 50px;
+    background-image: url(../img/abt.jpg);
+    height: 450px;
+    /* width: 50%; */
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    
+
+}
+.six a{
+    position: absolute;
+    background-color: #F28123;
+    color: #051922;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 92px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding-left: 5px;
+   
+    top: 50%;
+    margin-top: -45px;
+    
+    box-shadow: 0 0 20px #adadad;
+    left: 50%;
+    margin-left: -45px;}
+.six-two{
+    width: 50%;
+    margin-top: 150px;
+}
+.six-text{
+    padding: 50px 50px 50px 30px;
+}
+.six-text p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+   
+}
+.six-text h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+}
+.six-text span{
+    color: #F28123;
+    margin-top: 30px;
+}
+/* .six-text a{
+    background-color: #F28123;
+} */
+button{
+    background-color: #F28123;
+    padding: 15px 25px 15px 25px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+} 
+ .six-btn:hover{
+    color: #F28123;
+    background-color: #051922;
+
+}
+
+/* We are Fruitkha end */
+
+/* December sale is on start */
+.seven{
+    width: 100%;
+    background-image: url(./img/1.jpg);
+    margin-top: 150px;
+    height: 500px;
+    /* position: relative; */
+}
+.seven h3{
+    font-size: 50px;
+    padding: 100px 0px 0px 50px;
+}
+.seven .orange-text{
+    color: #F28123;
+}
+.seven-seal{
+    font-size: 50px;
+}
+.seven-seal span{
+    font-size: 24px ;
+}
+
+
+
+/* December sale is on  start*/
