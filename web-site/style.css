@@ -503,11 +503,122 @@ button{
 }
 .seven-seal{
     font-size: 50px;
+    padding: 0px 0px 0px 50px;
+
 }
 .seven-seal span{
     font-size: 24px ;
+    color: #F28123;
+}
+.seven-seal span{
+    color:#F28123;
+}
+.seven-seal a{
+    text-decoration: none;
+    color: white;
+    background-color: #F28123;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 15px 25px 15px 25px;
+}
+.seven-seal a:hover{
+    color: #F28123;
+    background-color: #051922;
 }
 
 
-
 /* December sale is on  start*/
+
+
+/* our-news start */
+.more{
+    text-decoration: none;
+    color: white;
+    background-color: #F28123;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 15px 25px 15px 25px;
+}
+.more:hover{
+    color: #F28123;
+    background-color: #051922;
+}
+
+
+/* our-news end */
+
+/* logos start */
+.nine{
+    width: 100%;
+    background-color: #F5F5F5;
+    margin-top: 100px;
+}
+.logos{
+    display: flex;
+    
+}
+.logo-one img{
+    padding: 50px 70px 50px 70px;
+}
+
+/* logos end  */
+
+
+/* footer start */
+
+.ten{
+    width: 100%;
+    background-color: #051922;
+    margin-top: 100px;
+}
+.ten-area{
+    
+    padding: 150px 50px 150px 50px;
+    display: flex;
+    color: #ffffff;
+}
+.ten-one{
+    width: 25%;
+    margin-left: 35px;
+
+}
+
+.ten-one p{
+    margin-top: 50px;
+}
+.ten-two{
+    width: 25%;
+    margin-left: 50px;
+    
+}
+.ten-two ul{
+    list-style: none;
+    margin-top: 50px;
+}
+.ten-two ul li{
+    margin-top: 15px;
+}
+
+.ten-three{
+    width: 25%;
+    margin-left: 50px;
+}
+.ten-three ul {
+    margin-top: 50px;
+    
+}
+.ten-three ul li{
+    margin-top: 15px;
+}
+.ten-three ul li:hover{
+    color: #F28123;
+}
+.ten-four{
+    width: 25%;
+}
+
+.ten-four p{
+    margin-top: 50px;
+}
+
+/* footer end */
