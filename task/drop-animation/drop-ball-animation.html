@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+#main{
+    position: relative;
+}
+.sub{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    border-radius: 100%;
+    animation: drop 0.7s infinite;
+}
+@keyframes drop {
+    0%{transform: translateY(-0px) scaleY(0.9);}
+    50%{transform: translateY(-200px) scaleY(0.9);}
+    
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="sub"></div>
+        <hr>
+    </div>
+    
+</body>
+</html>

@@ -1,3 +1,13 @@
+@font-face {
+    font-family: my-font-1;
+    src: url(./font/open-sans/my-font-1.ttf);
+   
+}
+@font-face {
+    font-family: my-font-2;
+    src: url(./font/poppins/my-font-2.otf);
+   
+}
 * {
     margin: 0;
     padding: 0;
@@ -10,23 +20,29 @@
     height: 582px;
     background-size: cover;
     background-position: center;
-    /* display: flex; */
+    display: flex;
     background-attachment: fixed;
     
 }
 
 .navbar {
     display: flex;
-    background-color: #051922;
+    background-color: #051922 ;
     height: 100px;
     padding-bottom:50px;
     width: 100%;
-    /* position: fixed; */
-   
+    position: fixed;
+    /* position: sticky;
+    top: 0;
+    */
+}
+.nav-img{
+    width: 20%;
 }
 
 
 .nav-img img {
+    
     height: 42px;
     cursor: pointer;
     margin: 30px 50px;
@@ -39,6 +55,10 @@
     margin: 25px 157px;
 
 }
+.nav-center{
+    width: 70%;
+}
+
 
 .nav-center ul li {
     display: inline-block;
@@ -56,6 +76,10 @@
 .nav-center ul li a:hover {
     color: #F28123;
 }
+.nav-end{
+    width: 10%;
+    margin-right: 35px;
+}
 
 .nav-end a {
     color: white;
@@ -69,7 +93,7 @@
 
 .one {
     color: #F28123;
-    margin: 95px 477px;
+    margin: 200px 477px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 9px;
@@ -167,8 +191,11 @@ a.border-btn:hover {
 }
 /* list section end */
 /* our product strt */
-.our-product{
+.third{
     width: 100%;
+}
+.our-product{
+    /* width: 100%; */
     padding-top: 130px;
     
 }
@@ -191,7 +218,7 @@ a.border-btn:hover {
     display: flex;
 }
 .product-info{
-    /* background-color: aqua; */
+
     width: 100%;
     padding: 50px;
    
@@ -220,9 +247,7 @@ a.border-btn:hover {
     box-shadow: none;
     border-radius: none;
 }
-/* .product-shipping{
-    margin-top: 50px;
-} */
+
 .product-one h3{
     font-size: 20px;
     color: #051922;
@@ -292,7 +317,7 @@ a.border-btn:hover {
     width: 50%;
     margin-top: 75px;
     padding: 60px;
-    /* background-color: aqua; */
+   
 
 }
 .part-two h3{
@@ -309,7 +334,7 @@ a.border-btn:hover {
     font-weight: 100;
 }
 .text{
-    /* font-size: 14px; */
+    
     color: #051922;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -319,9 +344,7 @@ a.border-btn:hover {
     /* position: relative; */
     margin-top: 30px;
 }
-/* .counter-main-box{
-    position: relative;
-} */
+
 
 .box{
     /* position: relative; */
@@ -369,7 +392,7 @@ a.border-btn:hover {
     margin-top: 20px;
     text-align: center;
     font-size: 20px;
-    /* padding: 10px 10px 10px 10px; */
+  
     font-family: Poppins, sans-serif;
 }
 .five-info p{
@@ -467,9 +490,7 @@ a.border-btn:hover {
     color: #F28123;
     margin-top: 30px;
 }
-/* .six-text a{
-    background-color: #F28123;
-} */
+
 button{
     background-color: #F28123;
     padding: 15px 25px 15px 25px;
@@ -491,7 +512,7 @@ button{
     width: 100%;
     background-image: url(./img/1.jpg);
     margin-top: 150px;
-    height: 500px;
+    height: 480px;
     /* position: relative; */
 }
 .seven h3{
@@ -502,47 +523,122 @@ button{
     color: #F28123;
 }
 .seven-seal{
-    font-size: 50px;
-    padding: 0px 0px 0px 50px;
-
-}
-.seven-seal span{
-    font-size: 24px ;
+    font-size: 60px;
+    margin: 10px 0px 0px 56px;
     color: #F28123;
+    font-weight: bold;
 }
 .seven-seal span{
-    color:#F28123;
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: #051922;
+    font-weight: normal;
+    text-align: center;
+
+    display: inline-block;
 }
-.seven-seal a{
+
+.seven a{
+   
     text-decoration: none;
     color: white;
     background-color: #F28123;
     border-radius: 50px;
     font-size: 18px;
     padding: 15px 25px 15px 25px;
+    margin-left: 56px;
 }
-.seven-seal a:hover{
+.seven a:hover{
     color: #F28123;
     background-color: #051922;
-}
+} 
 
 
-/* December sale is on  start*/
+/* December sale is on  end*/
 
 
 /* our-news start */
-.more{
-    text-decoration: none;
-    color: white;
-    background-color: #F28123;
-    border-radius: 50px;
-    font-size: 18px;
-    padding: 15px 25px 15px 25px;
+.eight{
+    width: 100%;
 }
-.more:hover{
+.our-news{
+    /* width: 100%; */
+    padding-top: 130px;
+    
+}
+.orange-text{
     color: #F28123;
-    background-color: #051922;
 }
+.news-text h1{
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    color: #051922;
+}
+.news-text p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #555555;
+    padding-top: 30px;
+}
+.news{
+    width: 100%;
+    display: flex;
+}
+.news-info{
+
+    width: 100%;
+    padding: 50px;
+   
+}
+.news-img img{
+    width: 100%;
+}
+.news-img a{
+    transition: all 0.2s ease-in-out;
+}
+
+.news-one {
+    font-family: Poppins, sans-serif;
+    /* background-color: black; */
+    height: 460px;
+    width: 110%;
+    box-shadow: 0 0 20px #e4e4e4;
+    border-radius: 5px; 
+   
+
+}
+.news-one:hover{
+    box-shadow: none;
+    border-radius: none;
+}
+.news-shipping  a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+   
+    
+}
+.news-shipping h3{
+    margin: 25px;
+
+}
+.news-shipping span{
+    margin-right: 15px;
+    opacity: 0.6;
+    font-size: 12px;
+    margin: 5px;
+   
+}
+.news-shipping p{
+    opacity: 0.6;
+   
+    margin: 25px;
+}
+.reed-more{
+    margin: 25px;
+    font-size: 12px;
+}
+
 
 
 /* our-news end */
@@ -558,7 +654,7 @@ button{
     
 }
 .logo-one img{
-    padding: 50px 70px 50px 70px;
+    padding: 50px 65px 50px 70px;
 }
 
 /* logos end  */
@@ -569,31 +665,37 @@ button{
 .ten{
     width: 100%;
     background-color: #051922;
-    margin-top: 100px;
+
+    font-family: "Open Sans", sans-serif;
+   
 }
 .ten-area{
     
-    padding: 150px 50px 150px 50px;
+    padding: 100px 50px 100px 50px;
     display: flex;
     color: #ffffff;
 }
 .ten-one{
     width: 25%;
     margin-left: 35px;
+   
 
 }
 
 .ten-one p{
     margin-top: 50px;
+    opacity: 0.7;
 }
 .ten-two{
     width: 25%;
     margin-left: 50px;
     
+    
 }
 .ten-two ul{
     list-style: none;
     margin-top: 50px;
+    opacity: 0.7;
 }
 .ten-two ul li{
     margin-top: 15px;
@@ -602,9 +704,12 @@ button{
 .ten-three{
     width: 25%;
     margin-left: 50px;
+    
 }
 .ten-three ul {
     margin-top: 50px;
+    list-style-type: square;
+    opacity: 0.7;
     
 }
 .ten-three ul li{
@@ -613,12 +718,66 @@ button{
 .ten-three ul li:hover{
     color: #F28123;
 }
+.home::marker
+{
+    color: #F28123;
+}
 .ten-four{
     width: 25%;
+  
 }
 
 .ten-four p{
     margin-top: 50px;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+.ten-four input{
+    padding: 16px;
+    background-color: #012738;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.ten-four a{
+    background-color: #012738;
+    color: #F28123;
+    padding: 14px ;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.eleven{
+    width: 100%;
+    display: flex;
+    background-color: #051922;
+    border-top: 1px solid #232a35;
+    font-family: "Open Sans", sans-serif;;
+}
+.eleven-one{
+    width: 50%;
+    font-size: 15px;
+    opacity: 0.7;
+    padding: 20px 0px 20px 80px;;
+    color: white;
+    
+}
+.eleven-one a{
+    color: #F28123;
+    text-decoration: none;
+}
+.eleven-two{
+    width: 50%;
+    padding-left: 400px;
+}
+.eleven-two i{
+    margin-top: 15px;
+    color: white;
+    padding: 10px;
+    opacity: 0.7;
+}
+.eleven-two i:hover{
+    color: #F28123;
 }
 
 /* footer end */
