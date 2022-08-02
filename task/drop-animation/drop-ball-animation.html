@@ -22,11 +22,12 @@
     width: 100px;
     background-color:red;
     border-radius: 100%;
-    animation: drop 0.7s infinite;
+    animation: drop 0.7s linear;
 }
 @keyframes drop {
     0%{transform: translateY(-0px) scaleY(0.9);}
-    50%{transform: translateY(-200px) scaleY(0.9);}
+    50%{transform: translateY(-300px) scaleY(0.9);}
+    100%{transform: translateY(-400px) scaleY(0.9);}
     
 }
 

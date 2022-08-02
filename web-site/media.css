@@ -1,0 +1,111 @@
+@media only screen and (max-width: 600px)
+{
+    #first {
+        background: url(./img/hero-bg.jpg);
+        width: auto;
+        height: auto;
+        background-size: cover;
+        background-position: center;
+        /* display: flex; */
+        background-attachment: fixed;
+        /* background-size: contain; */
+        /* background: no-repeat; */
+        /* background: fixed; */
+    }
+    .navbar {
+
+      
+        height: 100px;
+       
+        width: 100%;
+        
+       
+    }
+    .nav-img{
+        width: 5%;
+    }
+    
+    
+    .nav-img img {
+        
+        height: 22px;
+        cursor: pointer;
+        margin: 15px 30px;
+       
+    }
+    .nav-center ul {
+        
+        font-size: 10px;
+        margin: 10px 70px;
+        
+    
+    }
+    .nav-center{
+        width: 38%;
+    }
+    
+    
+    .nav-center ul li {
+        
+        padding: 10px;
+    
+    }
+    
+    .nav-center ul li a {
+        text-decoration: none;
+        color:red;
+    
+    
+    }
+   
+    .nav-end{
+        width: 10%;
+       
+    }
+    
+    .nav-end a {
+        color: red;
+        font-size: 10px;
+        margin: 23px 10px;
+    }
+    .one {
+        margin: 119px 185px;
+        
+       
+        
+        font-size: 10px;
+    }
+    
+    .two {
+        font-size: 15px;
+       
+        
+        margin: -97px 116px
+    }
+    .btn {
+        margin: 115px 55px;
+        display: block;
+        font-size: 14px;
+        width: 100%;
+    }
+    
+    a.box-btn {
+        /* width: 100%; */
+        
+        text-align: center;
+        padding: 10px 210px;
+       margin-bottom: 10px;
+     
+     
+    }
+    
+    a.border-btn {
+        /* width: 100%; */
+        text-align: center;
+        padding: 8px 219px;
+        
+    
+    }
+ 
+    
+}
