@@ -1,0 +1,163 @@
+(01) What is JavaScript?
+JavaScript is a dynamic computer programming language. 
+It is lightweight and most commonly used as a part of web pages, 
+whose implementations allow client-side script to interact with the user and make dynamic pages.
+
+
+(02) What is the use of isNaN function? 
+The isNaN() function is used to check whether a given value is an illegal number or not. 
+It returns true if value is a NaN else returns false. It is different from the Number.
+
+
+(03) What is negative Infinity? 
+NEGATIVE_INFINITY is the same as the negative value of the global object's Infinity property. 
+
+(04) Which company developed JavaScript? 
+Netscape
+
+
+(05)  What are undeclared and undefined variables?
+Undefined variable means a variable has been declared but it does not have a value. 
+Undeclared variable means that the variable does not exist in the program at all.
+
+
+(06) Write the code for adding new elements dynamically? 
+document.createElement("<tagName>");  
+// Where <tagName> can be any HTML 
+// tagName like div, ul, button, etc.
+// newDiv element has been created
+For Eg: let newDiv = document.createElement("div");
+
+
+(07) What is the difference between ViewState and SessionState? 
+The basic difference between these two is that the ViewState is to manage state at the client's end, 
+making state management easy for end-user while SessionState manages state at the server's end, making it easy to manage content from this end too.
+ViewState: It is maintained at only one level that is page-level.
+
+
+(08) What is === operator? 
+The strict equality operator ( === ) checks whether its two operands are equal, returning a Boolean result. 
+Unlike the equality operator, the strict equality operator always considers operands of different types to be different.
+
+
+(09)  How can the style/class of an element be changed? 
+Another way to alter the style of an element is by changing its class attribute. class is a reserved word in JavaScript, 
+so in order to access the element's class, you use element. className .
+
+
+(10) How to read and write a file using JavaScript?
+• file=fopen(getScriptPath(),0); The function fread() is used for reading the file content.
+• str = fread(file,flength(file) ; The function fwrite() is used to write the contents to the file.
+• file = fopen("c:\MyFile.txt", 3);// opens the file for writing.
+
+
+(11) What are all the looping structures in JavaScript?
+• for - loops through a block of code a number of times.
+• for/in - loops through the properties of an object.
+• for/of - loops through the values of an iterable object.
+• while - loops through a block of code while a specified condition is true.
+
+ 
+(12) How can you convert the string of any base to an integer in JavaScript?
+In JavaScript parseInt() function (or a method) is used to convert the passed in string parameter or value to an integer value itself. 
+This function returns an integer of base which is specified in second argument of parseInt() function.
+
+
+(13) What is the function of the delete operator? 
+The delete operator removes a given property from an object. 
+
+
+(14) What are all the types of Pop up boxes available in JavaScript?
+
+[i]Alert Box
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Alert</h2>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  alert("I am an alert box!");
+}
+</script>
+
+</body>
+</html>
+
+[ii] Confirm Box
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Confirm Box</h2>
+
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Press a button!")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
+
+[iii] Prompt Box
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Prompt</h2>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let text;
+  let person = prompt("Please enter your name:", "Harry Potter");
+  if (person == null || person == "") {
+    text = "User cancelled the prompt.";
+  } else {
+    text = "Hello " + person + "! How are you today?";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+
+
+
+(14) What is the use of Void (0)?
+JavaScript void 0 means returning undefined (void) as a primitive value. 
+You might come across the term “JavaScript:void(0)” while going through HTML documents. 
+It is used to prevent any side effects caused while inserting an expression in a web page.
+
+
+(15) How can a page be forced to load another page in JavaScript? 
+We can use window. location property inside the script tag to forcefully load another page in Javascript. 
+It is a reference to a Location object that is it represents the current location of the document. We can change the URL of a window by accessing it.
+
+
+
+(16) What are the disadvantages of using innerHTML in JavaScript? 
+It is very slow because as inner HTML already parses the content even we have to parse the content again so that's why it takes time. 
+When we have used the event handlers then the event handlers are not automatically attached to the new elements created by innerHTML.
