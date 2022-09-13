@@ -1,111 +1,296 @@
-@media only screen and (max-width: 600px)
-{
+@media only screen and (max-width: 600px) {
     #first {
-        background: url(./img/hero-bg.jpg);
+        background: linear-gradient(rgba(60, 74, 79, 0.8), rgba(60, 74, 79, 0.8)), url(./img/hero-bg.jpg);
         width: auto;
         height: auto;
         background-size: cover;
         background-position: center;
-        /* display: flex; */
-        background-attachment: fixed;
-        /* background-size: contain; */
-        /* background: no-repeat; */
-        /* background: fixed; */
-    }
-    .navbar {
 
-      
-        height: 100px;
-       
-        width: 100%;
-        
-       
     }
-    .nav-img{
+
+    .navbar {
+        height: 50px;
+        width: 77.5%;
+    }
+
+    .nav-img {
         width: 5%;
     }
-    
-    
+
     .nav-img img {
-        
+
         height: 22px;
         cursor: pointer;
-        margin: 15px 30px;
-       
+        margin: 15px 20px;
     }
+
     .nav-center ul {
-        
         font-size: 10px;
         margin: 10px 70px;
-        
-    
     }
-    .nav-center{
-        width: 38%;
+
+    .nav-center {
+        width: 82%;
     }
-    
-    
+
     .nav-center ul li {
-        
         padding: 10px;
-    
     }
-    
+
     .nav-center ul li a {
         text-decoration: none;
-        color:red;
-    
-    
+        /* color:red; */
     }
-   
-    .nav-end{
-        width: 10%;
-       
+
+    .nav-end {
+        width: 13%;
     }
-    
+
     .nav-end a {
-        color: red;
+        /* color: red; */
         font-size: 10px;
         margin: 23px 10px;
     }
+
     .one {
         margin: 119px 185px;
-        
-       
-        
         font-size: 10px;
     }
-    
+
     .two {
         font-size: 15px;
-       
-        
         margin: -97px 116px
     }
+
     .btn {
         margin: 115px 55px;
         display: block;
         font-size: 14px;
         width: 100%;
     }
-    
+
     a.box-btn {
-        /* width: 100%; */
-        
         text-align: center;
         padding: 10px 210px;
-       margin-bottom: 10px;
-     
-     
+        margin-bottom: 10px;
     }
-    
+
     a.border-btn {
         /* width: 100%; */
         text-align: center;
         padding: 8px 219px;
-        
-    
     }
- 
-    
+
+
+    .service {
+
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .infomation {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .product-text h1 {
+
+        font-size: 25px;
+
+    }
+
+    .product-text p {
+
+        font-size: 15px;
+        padding: 30px 165px 0px 165px;
+    }
+
+    .product {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .product-info {
+        width: 100%;
+        padding: 50px;
+
+    }
+
+    .product-img {
+        padding: 0px;
+    }
+
+    .product-img img {
+        width: 100%;
+        padding: 60px;
+    }
+
+    .product-one {
+
+        height: 660px;
+        width: fit-content;
+    }
+
+    .product-one h3 {
+        margin-top: -50px;
+    }
+
+    .fourth {
+        margin-top: 80px;
+    }
+
+    .Deal-of-the-month {
+        flex-wrap: wrap;
+    }
+
+    .part-one {
+        width: 100%;
+    }
+
+    .price-box {
+        margin: 75px 0px 0px 100px;
+    }
+
+    .part-one img {
+        margin: 75px 0px 0px 20px;
+        padding: 50px;
+    }
+
+    .part-two {
+        width: 100%;
+        margin-top: -100px;
+        padding: 45px;
+    }
+
+    .five-info p {
+        padding: 15px 150px 0px 150px;
+        line-height: 1.8;
+    }
+
+    .six-one {
+        display: none;
+    }
+
+    .six-two {
+        width: 100%;
+        margin-top: 80px;
+        line-height: 1.7;
+    }
+
+    .six-text {
+        padding: 50px 100px 0px 70px;
+    }
+
+    .news-text h1 {
+        font-size: 25px;
+    }
+
+    .news-text p {
+
+        font-size: 15px;
+        padding: 30px 165px 0px 165px;
+    }
+
+    .news {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .news-info {
+
+        width: 100%;
+        padding: 50px;
+
+    }
+
+    /* .news-img{
+        padding: 0px;
+    } */
+    .news-img img {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 75px;
+    }
+
+    .news-one {
+        height: 500px;
+        width: fit-content;
+    }
+
+    .news-one h3 {
+        margin-top: -50px;
+    }
+
+    .logo-one img {
+        padding: 40px 0px 40px 24px;
+    }
+
+    .ten-area {
+        padding: 100px 50px 100px 50px;
+        display: flex;
+        flex-wrap: wrap;
+        color: #ffffff;
+    }
+
+    .ten-one {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 70px;
+    }
+
+    .ten-two {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 70px;
+    }
+
+    .ten-three {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 70px;
+    }
+
+    .ten-four {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .ten-four input {
+        padding: 16px;
+        width: 78%;
+        border-radius: 5px 0px 0px 5px;
+    }
+
+    .ten-four a {
+        padding: 13px 35px 13px 35px;
+        border-radius: 0px 3px 3px 0px;
+
+    }
+
+    .eleven {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .eleven-one {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .eleven-two {
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .eleven p {
+        text-align: center;
+    }
 }
+
