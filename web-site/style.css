@@ -7,7 +7,7 @@
 /* header start  */
 #first {
     background: linear-gradient(rgba(60, 74, 79, 0.8), rgba(60, 74, 79, 0.8)), url(./img/hero-bg.jpg);
-    width: 100%;
+    max-width: 100%;
     height: 582px;
     background-size: cover;
     background-position: center;
@@ -21,7 +21,7 @@
     background-color: #051922 ;
     height: 100px;
     padding-bottom:50px;
-    width: 100%;
+    max-width: 100%;
     position: fixed;
     z-index: 1;
     /* position: sticky;
@@ -54,7 +54,7 @@
 
 .nav-center ul li {
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
 
 }
 
@@ -81,7 +81,7 @@ ul li:hover ul.dropdown
 }
 .nav-end{
     width: 10%;
-    margin-right: 35px;
+    margin-right: 65px;
 }
 
 .nav-end a {
@@ -95,8 +95,9 @@ ul li:hover ul.dropdown
 }
 
 .one {
+    text-align: center;
     color: #F28123;
-    margin: 200px 477px;
+    margin: 200px 450px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 9px;
@@ -104,14 +105,15 @@ ul li:hover ul.dropdown
 }
 
 .two {
+    text-align: center;
     font-size: 29px;
     font-family: "Poppins", sans-serif;
     color: #fff;
-    margin: -67px 249px;
+    margin: -170px 225px;
 }
 
 .btn {
-    margin: 113px 469px;
+    margin: 220px 440px;
     /* background-color: #F28123; */
 }
 /* .btn a{
@@ -126,6 +128,7 @@ a.box-btn {
     padding: 10px 20px;
     border-radius: 50px;
     text-decoration: none;
+    /* margin: 10px; */
 }
 
 a.border-btn {
@@ -671,7 +674,7 @@ button{
     
 }
 .logo-one img{
-    padding: 50px 65px 50px 70px;
+    padding: 50px 60px 50px 60px;
 }
 
 /* logos end  */
@@ -786,7 +789,7 @@ button{
 }
 .eleven-two{
     width: 50%;
-    padding-left: 400px;
+    padding-left: 390px;
 }
 .eleven-two i{
     margin-top: 15px;

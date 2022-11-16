@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./Jquary.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $('#hide').click(function(){
+                $('h1').hide(2000);
+            });
+
+            $('#show').click(function(){
+                $('h2').show(2000);
+            });
+
+            $('#tgl').click(function(){
+                $('h3').toggle(2000);
+            });
+        })
+    </script>
+    
+</body>
+       <h1>hide the data</h1>
+       <button id="hide">hide</button>
+       <h2 style="display: none;"> today is ind match</h2>
+       <button id="show">show</button>
+       <h3 style="display: none;">toggle me</h3>
+       <button id="tgl">toggle</button>
+</html>
